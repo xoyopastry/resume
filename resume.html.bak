@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/resume.css">
+	<link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+</head>
+<body>
+ <!-- Swiper -->    
+   <div class="swiper-container swiper-container-v">    
+       <div class="swiper-wrapper">    
+           <div class="swiper-slide" id="slide01">
+			<section>
+				<span>FONT-END DEVELOPER</span>
+				<div></div>
+				<p class="ava-name">Crystal</p>
+				<p class="ava-tatoo">A book that remains shut is but a block.</p>
+				<a class="ava-a" href="#">了解我</a>
+			</section>
+		   </div>    
+           <div class="swiper-slide" id="slide02">
+               <div class="swiper-container-h">    
+                   <div class="swiper-wrapper">    
+                       <div class="swiper-slide">向左滑动</div>    
+                       <div class="swiper-slide">Horizontal Slide  2</div>    
+                       <div class="swiper-slide">Horizontal Slide  3</div>    
+                       <div class="swiper-slide">Horizontal Slide  4</div>    
+                       <div class="swiper-slide">Horizontal Slide  5</div>    
+                   </div>    
+                   <div class="swiper-pagination swiper-pagination-h"></div>    
+               </div>    
+           </div>    
+           <div class="swiper-slide" id="slide03">Vertical Slide 3</div>     
+       </div>    
+       <!-- Add Pagination -->    
+       <div class="swiper-pagination swiper-pagination-v"></div>    
+   </div>
+   <script src="js/jquery.js"></script>
+   <script src="js/swiper-3.4.2.jquery.min.js"></script>
+   <script src="js/resume.js"></script>
+   
+</body>
+</html>
